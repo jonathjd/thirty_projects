@@ -1,1 +1,5 @@
 data/fastq_files/demo.fastq
+day_4/config.py
+day_4/__pycache__/
+day_5/.wdl_env
+day_5/demo.fastq.gz

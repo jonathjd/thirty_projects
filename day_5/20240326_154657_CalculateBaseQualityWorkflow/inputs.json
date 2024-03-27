@@ -1,0 +1,4 @@
+{
+  "CalculateBaseQualityWorkflow.input_fastq": "/Users/dickinsonjo/repos/thirty_projects/day_5/demo.fastq.gz",
+  "CalculateBaseQualityWorkflow.output_name": "base_quality.csv"
+}

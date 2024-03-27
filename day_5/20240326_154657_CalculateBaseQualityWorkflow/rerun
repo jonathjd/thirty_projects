@@ -1,0 +1,1 @@
+pushd /Users/dickinsonjo/repos/thirty_projects/day_5 && miniwdl run parse_fastq.wdl input_fastq=demo.fastq.gz output_name=base_quality.csv --verbose; popd

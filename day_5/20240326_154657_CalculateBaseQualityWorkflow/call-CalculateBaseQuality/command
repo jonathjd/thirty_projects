@@ -1,0 +1,3 @@
+
+python /app/parse_fastq.py /mnt/miniwdl_task_container/work/_miniwdl_inputs/0/demo.fastq.gz base_quality.csv
+    

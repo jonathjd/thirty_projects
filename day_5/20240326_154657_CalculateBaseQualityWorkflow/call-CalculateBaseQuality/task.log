@@ -1,0 +1,11 @@
+2024-03-26 15:46:57.942 wdl.w:CalculateBaseQualityWorkflow.t:call-CalculateBaseQuality NOTICE task setup :: name: "CalculateBaseQuality", source: "parse_fastq.wdl", line: 3, column: 1, dir: "/Users/dickinsonjo/repos/thirty_projects/day_5/20240326_154657_CalculateBaseQualityWorkflow/call-CalculateBaseQuality", thread: 6129266688
+2024-03-26 15:46:58.016 wdl.w:CalculateBaseQualityWorkflow.t:call-CalculateBaseQuality NOTICE docker swarm resources :: workers: 1, max_cpus: 10, max_mem_bytes: 8227573760, total_cpus: 10, total_mem_bytes: 8227573760
+2024-03-26 15:46:58.017 wdl.w:CalculateBaseQualityWorkflow.t:call-CalculateBaseQuality INFO input :: name: "csv_output", value: "base_quality.csv"
+2024-03-26 15:46:58.017 wdl.w:CalculateBaseQualityWorkflow.t:call-CalculateBaseQuality INFO input :: name: "fastq_input", value: "/mnt/miniwdl_task_container/work/_miniwdl_inputs/0/demo.fastq.gz"
+2024-03-26 15:46:58.017 wdl.w:CalculateBaseQualityWorkflow.t:call-CalculateBaseQuality INFO effective runtime :: docker: "jonathjd/mywdl_image1:v1"
+2024-03-26 15:46:58.025 wdl.w:CalculateBaseQualityWorkflow.t:call-CalculateBaseQuality NOTICE docker image :: tag: "jonathjd/mywdl_image1:v1", id: "sha256:8d68e23ad408ff65adb31d6c3e696b88a57b4cb6be6d20b0e3a6f53880f84bac", RepoDigest: "jonathjd/mywdl_image1@sha256:fa0c350522cb930b8ed936d021aff373e5059647f40e4787153d310b7890b388"
+2024-03-26 15:46:59.578 wdl.w:CalculateBaseQualityWorkflow.t:call-CalculateBaseQuality NOTICE docker task running :: service: "xi1cgxfykpiv", task: "9kzzzgujcs", node: "t8uq4acqa4", message: "started"
+2024-03-26 15:47:09.577 wdl.w:CalculateBaseQualityWorkflow.t:call-CalculateBaseQuality INFO docker task complete :: service: "xi1cgxfykpiv", task: "9kzzzgujcs", node: "t8uq4acqa4", message: "finished"
+2024-03-26 15:47:09.577 wdl.w:CalculateBaseQualityWorkflow.t:call-CalculateBaseQuality NOTICE docker task exit :: state: "complete", exit_code: 0
+2024-03-26 15:47:09.798 wdl.w:CalculateBaseQualityWorkflow.t:call-CalculateBaseQuality INFO output :: name: "output_csv", value: "base_quality.csv"
+2024-03-26 15:47:09.801 wdl.w:CalculateBaseQualityWorkflow.t:call-CalculateBaseQuality NOTICE done

@@ -1,0 +1,23 @@
+2024-03-26 15:46:57.939 wdl.w:CalculateBaseQualityWorkflow NOTICE workflow start :: name: "CalculateBaseQualityWorkflow", source: "parse_fastq.wdl", line: 22, column: 1, dir: "/Users/dickinsonjo/repos/thirty_projects/day_5/20240326_154657_CalculateBaseQualityWorkflow"
+2024-03-26 15:46:57.940 wdl.w:CalculateBaseQualityWorkflow NOTICE miniwdl :: version: "v1.11.1", uname: "Darwin MacBook-Pro.lan 23.1.0 Darwin Kernel Version 23.1.0: Mon Oct  9 21:27:24 PDT 2023; root:xnu-10002.41.9~6/RELEASE_ARM64_T6000 arm64"
+2024-03-26 15:46:57.941 wdl.w:CalculateBaseQualityWorkflow INFO task thread pool initialized :: task_concurrency: 10
+2024-03-26 15:46:57.942 wdl.w:CalculateBaseQualityWorkflow INFO visit :: node: "decl-input_fastq", values: {"input_fastq": "/Users/dickinsonjo/repos/thirty_projects/day_5/demo.fastq.gz"}
+2024-03-26 15:46:57.942 wdl.w:CalculateBaseQualityWorkflow INFO visit :: node: "decl-output_name", values: {"output_name": "base_quality.csv"}
+2024-03-26 15:46:57.942 wdl.w:CalculateBaseQualityWorkflow NOTICE ready :: job: "call-CalculateBaseQuality", callee: "CalculateBaseQuality"
+2024-03-26 15:46:57.942 wdl.w:CalculateBaseQualityWorkflow INFO input :: job: "call-CalculateBaseQuality", values: {"csv_output": "base_quality.csv", "fastq_input": "/Users/dickinsonjo/repos/thirty_projects/day_5/demo.fastq.gz"}
+2024-03-26 15:46:57.942 wdl.w:CalculateBaseQualityWorkflow.t:call-CalculateBaseQuality NOTICE task setup :: name: "CalculateBaseQuality", source: "parse_fastq.wdl", line: 3, column: 1, dir: "/Users/dickinsonjo/repos/thirty_projects/day_5/20240326_154657_CalculateBaseQualityWorkflow/call-CalculateBaseQuality", thread: 6129266688
+2024-03-26 15:46:58.016 wdl.w:CalculateBaseQualityWorkflow.t:call-CalculateBaseQuality NOTICE docker swarm resources :: workers: 1, max_cpus: 10, max_mem_bytes: 8227573760, total_cpus: 10, total_mem_bytes: 8227573760
+2024-03-26 15:46:58.017 wdl.w:CalculateBaseQualityWorkflow.t:call-CalculateBaseQuality INFO input :: name: "csv_output", value: "base_quality.csv"
+2024-03-26 15:46:58.017 wdl.w:CalculateBaseQualityWorkflow.t:call-CalculateBaseQuality INFO input :: name: "fastq_input", value: "/mnt/miniwdl_task_container/work/_miniwdl_inputs/0/demo.fastq.gz"
+2024-03-26 15:46:58.017 wdl.w:CalculateBaseQualityWorkflow.t:call-CalculateBaseQuality INFO effective runtime :: docker: "jonathjd/mywdl_image1:v1"
+2024-03-26 15:46:58.025 wdl.w:CalculateBaseQualityWorkflow.t:call-CalculateBaseQuality NOTICE docker image :: tag: "jonathjd/mywdl_image1:v1", id: "sha256:8d68e23ad408ff65adb31d6c3e696b88a57b4cb6be6d20b0e3a6f53880f84bac", RepoDigest: "jonathjd/mywdl_image1@sha256:fa0c350522cb930b8ed936d021aff373e5059647f40e4787153d310b7890b388"
+2024-03-26 15:46:59.578 wdl.w:CalculateBaseQualityWorkflow.t:call-CalculateBaseQuality NOTICE docker task running :: service: "xi1cgxfykpiv", task: "9kzzzgujcs", node: "t8uq4acqa4", message: "started"
+2024-03-26 15:47:09.577 wdl.w:CalculateBaseQualityWorkflow.t:call-CalculateBaseQuality INFO docker task complete :: service: "xi1cgxfykpiv", task: "9kzzzgujcs", node: "t8uq4acqa4", message: "finished"
+2024-03-26 15:47:09.577 wdl.w:CalculateBaseQualityWorkflow.t:call-CalculateBaseQuality NOTICE docker task exit :: state: "complete", exit_code: 0
+2024-03-26 15:47:09.798 wdl.w:CalculateBaseQualityWorkflow.t:call-CalculateBaseQuality INFO output :: name: "output_csv", value: "base_quality.csv"
+2024-03-26 15:47:09.801 wdl.w:CalculateBaseQualityWorkflow.t:call-CalculateBaseQuality NOTICE done
+2024-03-26 15:47:09.801 wdl.w:CalculateBaseQualityWorkflow NOTICE finish :: job: "call-CalculateBaseQuality"
+2024-03-26 15:47:09.801 wdl.w:CalculateBaseQualityWorkflow INFO output :: job: "call-CalculateBaseQuality", values: {"output_csv": "/Users/dickinsonjo/repos/thirty_projects/day_5/20240326_154657_CalculateBaseQualityWorkflow/call-CalculateBaseQuality/out/output_csv/base_quality.csv"}
+2024-03-26 15:47:09.801 wdl.w:CalculateBaseQualityWorkflow INFO visit :: node: "output-base_quality_csv", values: {"base_quality_csv": "/Users/dickinsonjo/repos/thirty_projects/day_5/20240326_154657_CalculateBaseQualityWorkflow/call-CalculateBaseQuality/out/output_csv/base_quality.csv"}
+2024-03-26 15:47:09.801 wdl.w:CalculateBaseQualityWorkflow INFO visit :: node: "outputs", values: {"base_quality_csv": "/Users/dickinsonjo/repos/thirty_projects/day_5/20240326_154657_CalculateBaseQualityWorkflow/call-CalculateBaseQuality/out/output_csv/base_quality.csv"}
+2024-03-26 15:47:09.802 wdl.w:CalculateBaseQualityWorkflow NOTICE done
